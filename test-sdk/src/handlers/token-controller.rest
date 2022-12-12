@@ -1,0 +1,18 @@
+
+### success
+
+POST http://localhost:4000/sdk/api/v2/token   HTTP/1.1
+Content-Type: application/json
+
+{
+  "userId": "kamal@spydra.app",
+  "ownerOrgId": "1",
+  "data": {
+    "tokenId": "12",
+    "tokenName": "NEWUPWORK",
+    "tokenOrg": "1",
+    "tokenAvailable": 100,
+    "tokenIssued": 0,
+    "tokenType": "NEW-WORK-TOEKN"
+  }
+}
