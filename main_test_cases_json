@@ -1,0 +1,89 @@
+http://localhost:4000/sdk/api/v2/registerEnrollUser
+
+{
+	"userId": "newUser12@spydra.app",
+    "OrgId": "1",
+    "orgName": "org1",
+    "OrganizationName": "TIETO",
+    "orgRole": "DEVELOPER",
+    "userRole": "CSE"
+}
+
+
+
+http://localhost:4000/sdk/api/v2/mbse/summary
+
+{
+  "userId": "adminorg2@spydra.app",
+  "ownerOrgId": "2",
+  "data": {
+	"summaryId":"New202",
+    "modelId":"101",
+    "version": "1.1",
+    "assetType": "Summary",
+	"modelName":"Summary-Report-New202",
+	"projectId":"NewProject",
+	"modelType":"Summary"
+  }
+}
+
+http://localhost:4000/sdk/api/v2/mbse/summary
+
+{
+  "userId": "adminorg2@spydra.app",
+  "ownerOrgId": "2",
+  "data": {
+	"summaryId":"New202",
+    "version": "1.1",
+    "assetType": "Summary",
+	"modelName":"Detail-Report-New1",
+	"projectId":"NewProject",
+    "reviewer": "Reviewer3",
+    "approver": "Approver3",
+    "comments": "Fully approved3"
+  }
+}
+
+http://localhost:4000/sdk/api/v2/mbse/private
+{
+  "userId": "newUser11@spydra.app",
+  "ownerOrgId": "1",
+  "data" :{
+	"modelId":"107",
+	"modelName":"Summary-Report-107",
+	"projectId":"107",
+	"modelType":"Summary"
+  }
+}
+
+http://localhost:4000/sdk/api/v2/mbse/private
+
+{
+  "userId": "newUser11@spydra.app",
+  "ownerOrgId": "1",
+  "data" :{
+	"modelId":"107",
+	"modelName":"Detail-Report-new-105",
+	"projectId":"NewProject61",
+	"modelType":"Summary",
+    "version": "1.1",
+    "assetType": "Summary"
+  }
+}
+
+
+http://localhost:4000/sdk/api/v2/mbse/private
+
+{
+  "userId": "user1@spydra.app",
+  "ownerOrgId": "1",
+    "mbseId": "60"
+}
+
+http://localhost:4000/sdk/api/v2/mbse/private
+{
+  "userId": "newUser13@spydra.app",
+  "ownerOrgId": "1",
+    "mbseId": "61"
+}
+

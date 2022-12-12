@@ -1,0 +1,9 @@
+cd ../test-network/organizations/peerOrganizations/org1.example.com
+
+export FABRIC_CA_CLIENT_TLS_CERTFILES=$PWD/ca/ca.org1.example.com-cert.pem
+
+export FABRIC_CA_CLIENT_HOME=$PWD
+
+cd ../../../../
+
+bin/fabric-ca-client identity list

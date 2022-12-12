@@ -1,0 +1,39 @@
+json files:
+{
+	"userId": "newUser11@nasa.org",
+    "OrgId": "1",
+    "orgName": "org1",
+    "orgRole": "DEVELOPER",
+    "userRole": "CSE"
+}
+
+{
+  "userId": "newUser11@nasa.org",
+  "ownerOrgId": "1",
+  "data" :{
+	"modelId":"1011",
+	"modelName":"Nasa Detailed-Model reports to DrSha",
+	"projectId":"Capstone-Security-2",
+	"modelType":"Detailed"
+  }
+}
+
+{
+  "userId": "sri@nasa.org",
+  "ownerOrgId": "2",
+  "data" :{
+	"modelId":"101",
+	"modelName":"Nasa Detailed Model Updated",
+	"projectId":"Capstone-Security-1",
+	"modelType":"Detailed"
+  }
+}
+
+{
+    "userId": "srinivas@nasa.org",
+    "ownerOrgId": "1",
+    "data": {
+        "modelId": "101",
+        "modelType": "Detailed"
+    }
+}

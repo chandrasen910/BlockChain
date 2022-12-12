@@ -1,0 +1,44 @@
+{
+	"userId": "sahithi@uhcl.orga",
+    "OrgId": "2",
+    "orgName": "org2",
+    "OrganizationName": "NASA",
+    "orgRole": "LEAD",
+    "userRole": "CSE"
+}
+
+{
+	"userId": "1srinivas@uhcl.orga",
+    "OrgId": "1",
+    "orgName": "org1",
+    "OrganizationName": "Tietronix",
+    "orgRole": "DEVELOPER",
+    "userRole": "CSE"
+}
+
+{
+	"userId": "3srinivas@uhcl.orga",
+    "OrgId": "2",
+    "orgName": "org2",
+    "OrganizationName": "NASA",
+    "orgRole": "LEAD",
+    "userRole": "CSE"
+}
+
+{
+	"userId": "chandu@uhcl.orga",
+    "OrgId": "2",
+    "orgName": "org2",
+    "OrganizationName": "NASA",
+    "orgRole": "LEAD",
+    "userRole": "manager"
+}
+
+{
+	"userId": "huzaifa@uhcl.orga",
+    "OrgId": "1",
+    "orgName": "org1",
+    "OrganizationName": "Tietronix",
+    "orgRole": "DEVELOPER",
+    "userRole": "manager"
+}
